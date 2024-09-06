@@ -24,10 +24,6 @@ jobs:
           - ubuntu-latest
         deps:
           - rails_72
-        include:
-          - ruby: '3.0'
-            os: ubuntu-latest
-            deps: rails_71
     steps:
       - uses: actions/checkout@v4
       - name: Configure bundler (default)
